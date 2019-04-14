@@ -1,0 +1,16 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    hostname: localhost
+
+spring:
+  application:
+    name: product-server
+
+server:
+  port: 8771
+ 
+ env: test
+ branch: master
