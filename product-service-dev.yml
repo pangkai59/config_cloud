@@ -12,5 +12,5 @@ spring:
 server:
   port: 8771
  
- env: dev
- branch: test
+env: dev
+branch: test
