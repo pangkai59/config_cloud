@@ -11,3 +11,6 @@ spring:
 
 server:
   port: 8771
+ 
+ env: default
+ branch: master
