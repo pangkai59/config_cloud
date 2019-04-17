@@ -11,7 +11,7 @@ spring:
     name: product-server
 
 server:
-  port: 8771
+  port: 8777
  
 env: test
 branch: master
