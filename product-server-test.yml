@@ -13,5 +13,5 @@ spring:
 server:
   port: 8123
  
-env: test
+env: test2019
 branch: test
