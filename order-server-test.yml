@@ -6,6 +6,7 @@ zipkin:
   sleuth:
     sampler:
       probability: 1
+spring:      
   rabbitmq:
     host: 106.14.14.196
     username: pangkai59
