@@ -18,3 +18,20 @@ zuul:
     order-server: /apigateway/order/**
   ignored-patterns: /*-server/**
   sensitive-headers:
+
+
+spring:      
+  rabbitmq:
+    host: 106.14.14.196
+    username: pangkai59
+    password: kaipang59
+    port: 5672
+  main:
+    allow-bean-definition-overriding: true
+
+    #暴露全部的监控信息
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
