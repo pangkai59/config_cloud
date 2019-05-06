@@ -1,1 +1,21 @@
+    #zipkin服务所在地址
+  zipkin:
+    base-url:  http://106.14.14.196:9411/
+    #配置采样百分比 默认是0.1  改成1就是全部  开发环境可以设置为1  生产就用默认的
+  sleuth:
+    sampler:
+      probability: 1
+  rabbitmq:
+    host: 106.14.14.196
+    username: pangkai59
+    password: kaipang59
+    port: 5672
+  main:
+    allow-bean-definition-overriding: true
 
+server:
+  port: 8881
+
+feign:
+  hystrix:
+    enabled: true
