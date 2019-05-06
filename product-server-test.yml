@@ -16,5 +16,4 @@ management:
       exposure:
         include: "*"
         
-env:test
 
