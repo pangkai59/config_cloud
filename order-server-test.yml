@@ -13,13 +13,6 @@
   main:
     allow-bean-definition-overriding: true
 
-    #暴露全部的监控信息
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
-
 server:
   port: 8881
 
