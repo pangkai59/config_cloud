@@ -4,10 +4,6 @@ spring:
     host: 106.14.14.196
     username: guest
     password: guest
-server:
-  port: 9876
-
-
 
 #暴露全部的监控信息
 management:
