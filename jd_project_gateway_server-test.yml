@@ -1,12 +1,5 @@
 server:
-  port: 9000
-
-
-zuul:
-  routes:
-    order-server: /apigateway/order/**
-  ignored-patterns: /*-server/**
-  sensitive-headers:
+  port: 8883
 
 
 spring:      
