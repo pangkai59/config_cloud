@@ -9,8 +9,8 @@ zipkin:
 spring:      
   rabbitmq:
     host: 106.14.14.196
-    username: pangkai59
-    password: kaipang59
+    username: guest
+    password: guest
     port: 5672
   main:
     allow-bean-definition-overriding: true
